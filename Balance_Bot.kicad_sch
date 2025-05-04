@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 191dbf66-9bf1-4bc2-9249-8106002267a5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 30.48 62.23) (size 12.7 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 27e89bc0-4e8a-4935-9710-e57113bfd42c)
+    (property "Sheetname" "Miscellaneous" (at 30.48 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Miscellaneous.kicad_sch" (at 30.48 71.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Balance_Bot"
+        (path "/191dbf66-9bf1-4bc2-9249-8106002267a5" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 30.48 30.48) (size 12.7 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 64f75b52-2e8c-4648-874f-92e1564ed2d2)
+    (property "Sheetname" "MCU_and_Peripherals" (at 30.48 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU_and_Peripherals.kicad_sch" (at 30.48 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Balance_Bot"
+        (path "/191dbf66-9bf1-4bc2-9249-8106002267a5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 30.48 45.72) (size 12.7 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid efbe7da0-137f-42f4-a33f-5be330894962)
+    (property "Sheetname" "Buck_Converter" (at 30.48 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BuckConverter.kicad_sch" (at 30.48 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Balance_Bot"
+        (path "/191dbf66-9bf1-4bc2-9249-8106002267a5" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

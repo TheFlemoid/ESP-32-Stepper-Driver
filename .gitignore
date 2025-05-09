@@ -1,4 +1,5 @@
 *.zip
 out/*
 *.lck
+fp-info-cache
 
